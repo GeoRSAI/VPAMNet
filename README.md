@@ -25,7 +25,7 @@
 ## 训练与测试
 VPAMNet 模型训练流程如下:
 
-1. 下载DINOv3预训练权重dinov3_vits16_pretrain_lvd1689m
+1. 下载DINOv3预训练权重dinov3_vits16_pretrain_lvd1689m并放到pretrain文件夹内。
 
 2. "option.py"
 - `args.dataset = 'Vaihingen__'`
