@@ -1,4 +1,4 @@
-# CLFDA: Continuous Low-Frequency Decomposition Architecture for Fine-Grained Land Use Classification
+# CLFDA: 基于视觉先验自适应挖掘的遥感影像语义分割
 
 ## Requirements
 - This code is written for `python3.10`.
