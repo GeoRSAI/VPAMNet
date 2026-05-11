@@ -4,7 +4,7 @@
 
 - pytorch = 2.8.0
 - torchvision
-- CUDA = 2.8
+- CUDA = 12.8
 - 此外，本项目使用[DINOv3](https://github.com/facebookresearch/dinov3)，请根据实际运行环境配置 DINOv3 相关依赖和预训练权重。
 ## 数据集
 
@@ -25,11 +25,13 @@
 ## 训练与测试
 VPAMNet 模型训练流程如下:
 
-1. "option.py"
+1. 下载DINOv3预训练权重dinov3_vits16_pretrain_lvd1689m
+
+2. "option.py"
 - `args.dataset = 'Vaihingen__'`
 - `args.arch = 'Potsdam_'`
 
-2. 训练与评估模型。 例如，在 GID-15 和 FUSU 数据集上运行实验:
+3. 训练与评估模型。 例如，在 GID-15 和 FUSU 数据集上运行实验:
 
 - `python main.py`
 
