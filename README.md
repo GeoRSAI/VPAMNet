@@ -35,7 +35,7 @@ VPAMNet 模型训练流程如下:
 
 
 ## 致谢
-本代码参考和借鉴了以下开源项目，在此表示感谢： [RS-Mamba(rsm-ss)](https://github.com/walking-shadow/Official_Remote_Sensing_Mamba), [RS3Mamba](https://github.com/sstary/SSRS/tree/main/RS3Mamba) and [DLTH](https://github.com/yueb17/DLTH)
+本代码参考和借鉴了以下开源项目，在此表示感谢： [DINOv3](https://github.com/facebookresearch/dinov3), [DinoUNet](https://github.com/yifangao112/DinoUNet) and [DLTH](https://github.com/yueb17/DLTH)
 
 
 ## 引用
