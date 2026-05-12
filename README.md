@@ -31,7 +31,7 @@ VPAMNet 模型训练流程如下:
 - `args.dataset = 'Vaihingen__'`
 - `args.arch = 'Potsdam_'`
 
-3. 训练与评估模型。 例如，在 GID-15 和 FUSU 数据集上运行实验:
+3. 训练与评估模型。 例如，在 ISPRS Vaihingen 和 ISPRS Potsdam 数据集上运行实验:
 
 - `python main.py`
 
